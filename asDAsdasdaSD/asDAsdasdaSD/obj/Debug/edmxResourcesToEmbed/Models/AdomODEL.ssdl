@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище demo_testModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Category" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Manufacturer" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Manufacturer" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Punkt" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Punkt">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Punkt" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Role" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Status" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Supplier" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Supplier" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Tovar" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Tovar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Article" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Unit" Type="int" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Max_sale" Type="int" />
+    <Property Name="Manufacturer" Type="int" />
+    <Property Name="Supplier" Type="int" />
+    <Property Name="Category" Type="int" />
+    <Property Name="Sale" Type="int" />
+    <Property Name="Kolvo" Type="int" />
+    <Property Name="Opisanie" Type="nvarchar" MaxLength="255" />
+    <Property Name="Image" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Unit" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Unit" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.User" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Fam" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Otchestvo" Type="nvarchar" MaxLength="255" />
+    <Property Name="Login" Type="nvarchar" MaxLength="255" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" />
+    <Property Name="Role" Type="int" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "demo_test.dbo.Zakaz" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Zakaz">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Num_zakaz" Type="int" />
+    <Property Name="Sostav" Type="int" />
+    <Property Name="Kolvo" Type="int" />
+    <Property Name="Date_zakaz" Type="date" />
+    <Property Name="Date_dostavka" Type="date" />
+    <Property Name="Punkt" Type="int" />
+    <Property Name="Fio" Type="nvarchar" MaxLength="255" />
+    <Property Name="Code" Type="int" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Хранилище demo_testModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Category].[Id] AS [Id], 
+    [Category].[Category] AS [Category]
+    FROM [dbo].[Category] AS [Category]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Manufacturer" EntityType="Self.Manufacturer" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Manufacturer].[Id] AS [Id], 
+    [Manufacturer].[Manufacturer] AS [Manufacturer]
+    FROM [dbo].[Manufacturer] AS [Manufacturer]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Punkt" EntityType="Self.Punkt" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Punkt].[Id] AS [Id], 
+    [Punkt].[Punkt] AS [Punkt]
+    FROM [dbo].[Punkt] AS [Punkt]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Role" EntityType="Self.Role" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Role].[Id] AS [Id], 
+    [Role].[Role] AS [Role]
+    FROM [dbo].[Role] AS [Role]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Status" EntityType="Self.Status" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Status].[Id] AS [Id], 
+    [Status].[Status] AS [Status]
+    FROM [dbo].[Status] AS [Status]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Supplier].[Id] AS [Id], 
+    [Supplier].[Supplier] AS [Supplier]
+    FROM [dbo].[Supplier] AS [Supplier]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Tovar" EntityType="Self.Tovar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Tovar].[Id] AS [Id], 
+    [Tovar].[Article] AS [Article], 
+    [Tovar].[Name] AS [Name], 
+    [Tovar].[Unit] AS [Unit], 
+    [Tovar].[Price] AS [Price], 
+    [Tovar].[Max_sale] AS [Max_sale], 
+    [Tovar].[Manufacturer] AS [Manufacturer], 
+    [Tovar].[Supplier] AS [Supplier], 
+    [Tovar].[Category] AS [Category], 
+    [Tovar].[Sale] AS [Sale], 
+    [Tovar].[Kolvo] AS [Kolvo], 
+    [Tovar].[Opisanie] AS [Opisanie], 
+    [Tovar].[Image] AS [Image]
+    FROM [dbo].[Tovar] AS [Tovar]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Unit" EntityType="Self.Unit" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Unit].[Id] AS [Id], 
+    [Unit].[Unit] AS [Unit]
+    FROM [dbo].[Unit] AS [Unit]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="User" EntityType="Self.User" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [User].[Id] AS [Id], 
+    [User].[Fam] AS [Fam], 
+    [User].[Name] AS [Name], 
+    [User].[Otchestvo] AS [Otchestvo], 
+    [User].[Login] AS [Login], 
+    [User].[Password] AS [Password], 
+    [User].[Role] AS [Role]
+    FROM [dbo].[User] AS [User]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Zakaz" EntityType="Self.Zakaz" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Zakaz].[Id] AS [Id], 
+    [Zakaz].[Num_zakaz] AS [Num_zakaz], 
+    [Zakaz].[Sostav] AS [Sostav], 
+    [Zakaz].[Kolvo] AS [Kolvo], 
+    [Zakaz].[Date_zakaz] AS [Date_zakaz], 
+    [Zakaz].[Date_dostavka] AS [Date_dostavka], 
+    [Zakaz].[Punkt] AS [Punkt], 
+    [Zakaz].[Fio] AS [Fio], 
+    [Zakaz].[Code] AS [Code], 
+    [Zakaz].[Status] AS [Status]
+    FROM [dbo].[Zakaz] AS [Zakaz]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

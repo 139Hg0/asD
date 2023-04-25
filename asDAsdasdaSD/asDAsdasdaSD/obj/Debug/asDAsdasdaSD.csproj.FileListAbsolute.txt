@@ -1,0 +1,16 @@
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\asDAsdasdaSD.exe.config
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\asDAsdasdaSD.exe
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\asDAsdasdaSD.pdb
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\EntityFramework.dll
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\EntityFramework.xml
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.csproj.AssemblyReference.cache
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.Form1.resources
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.Properties.Resources.resources
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.csproj.GenerateResource.cache
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.csproj.CoreCompileInputs.cache
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.csproj.CopyComplete
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.exe
+C:\Users\ilya1\source\repos\asDAsdasdaSD\asDAsdasdaSD\obj\Debug\asDAsdasdaSD.pdb
